@@ -1,0 +1,143 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #2c4a7a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    background: #e8eef7;
+    color: #2c4a7a;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #d0dced;
+}
+
+/* layout principal */
+
+main, section, .content, .container {
+    margin-top: 25px !important;
+}
+
+/* titukos */
+
+h2, h3 {
+    color: #2c4a7a;
+    margin-top: 25px;
+}
+
+/*forms */
+
+form {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 200px;
+}
+
+textarea {
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    resize: vertical;
+}
+
+button {
+    padding: 7px 14px;
+    border: none;
+    background: #2c4a7a;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a5c99;
+}
+
+/* pag 2*/
+
+pre#result {
+    background: #ffffff;
+    color: #333;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    white-space: pre-wrap;
+    line-height: 1.45;
+    margin-top: 20px;
+}
+
+#result b {
+    color: #2c4a7a;
+    font-size: 16px;
+}
+
+/* tabelas*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #2c4a7a;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) td {
+    background: #f1f4f8;
+}
+
+/* rodape */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 13px;
+}
