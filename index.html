@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio para API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Trabalho API - Página 1</h1>
+    <nav>
+        <a href="index.html">Enviar dados</a>
+        <a href="apis.html">Consultar APIs</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Enviar dados para a API</h2>
+    <p>Preencha o formulário abaixo. Os dados serão enviados para a API JSONPlaceholder.</p>
+
+    <form id="postForm">
+        <label>Título:
+            <input type="text" id="title" required>
+        </label>
+
+        <label>Mensagem:
+            <textarea id="mensagem" required></textarea>
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Resposta da API:</h3>
+    <pre id="result"></pre>
+</main>
+
+<footer>
+    <p>Trabalho de JavaScript – APIs</p>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
